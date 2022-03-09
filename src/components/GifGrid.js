@@ -10,7 +10,7 @@ export const GifGrid = ({ category }) => {
 
   return (
     <>
-      <h3 className="animate__fadeInTopRight">{category}</h3>
+      <h3 className="animate__fadeInTopRightcd">{category}</h3>
       {loading && <p>Loading</p>}
       <div className="card-grid">
         <ol>
